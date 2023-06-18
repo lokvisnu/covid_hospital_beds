@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/covid_hospital_beds/static/css/main.530c90f5.css",
+    "main.js": "/covid_hospital_beds/static/js/main.af14c802.js",
+    "static/media/whatsapp.png": "/covid_hospital_beds/static/media/whatsapp.965d92ce0d9f486938b6.png",
+    "static/media/instagram.png": "/covid_hospital_beds/static/media/instagram.2d5cedd576ca1a740d7c.png",
+    "static/media/facebook.png": "/covid_hospital_beds/static/media/facebook.177e21a8cf4743cba516.png",
+    "static/media/spg-logo.png": "/covid_hospital_beds/static/media/spg-logo.cdbd8cb84eab781a1e00.png",
+    "static/media/gmail.png": "/covid_hospital_beds/static/media/gmail.a2f2146f929409405da0.png",
+    "index.html": "/covid_hospital_beds/index.html",
+    "main.530c90f5.css.map": "/covid_hospital_beds/static/css/main.530c90f5.css.map",
+    "main.af14c802.js.map": "/covid_hospital_beds/static/js/main.af14c802.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.530c90f5.css",
+    "static/js/main.af14c802.js"
+  ]
+}
