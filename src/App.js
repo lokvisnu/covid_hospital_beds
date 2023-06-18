@@ -5,7 +5,8 @@ import BedListItem from './components/BedListItem'
 import Footer from './components/Footer'
 import './styles.css'
 import Header from './components/Header'
-import useFetch from './customHooks/useFetch'
+//import useFetch from './customHooks/useFetch'
+import data from './data/data.json'
 
 function App() 
 {
@@ -48,15 +49,19 @@ function App()
       "Vellore",
       "Virudhunagar"
     ]
-    const {Data:hospital,SetData:setHospital} = useFetch('https://spgvark-pandemic.herokuapp.com/api/beds');
+    //const {Data:hospital,SetData:setHospital} = useFetch('https://spgvark-pandemic.herokuapp.com/api/beds');
     const [city_selected,setCity] = useState('');
     const [search,setSearch] = useState(null);
     const [query,setQuery] = useState('')
     const [ListConut,setListCount] = useState(20);
     const [sort,setSort] = useState(null);
+    const [hospital,setHospital] = useState([])
   //</UseState>
  
   //<UseEffect>
+  useEffect(()=>{
+    setHospital(data)
+  },[])
     useEffect(() => 
     {
       setSearch(hospital);
