@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+Link of the live website - https://lokvisnu.github.io/covid_hospital_beds/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
